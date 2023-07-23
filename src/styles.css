@@ -1,0 +1,80 @@
+body {
+  font-family: Google Sans, arial, sans-serif;
+}
+.weather {
+  background: linear-gradient(
+    90deg,
+    rgb(3, 229, 252) 0%,
+    rgb(139, 102, 241) 100%
+  );
+  text-align: center;
+  padding: 10px;
+}
+.search-btn {
+  width: 50%;
+}
+.card .weather {
+  max-width: 980px;
+}
+.temperature,
+.temperature1 {
+  text-decoration: none;
+}
+#temp {
+  font-size: 50px;
+  line-height: 56px;
+}
+.Weatherforecast {
+  border: 2px solid blue;
+  margin: 30px;
+  border-radius: 8px;
+}
+.current {
+  padding: 0;
+}
+.time {
+  text-align: right;
+}
+#city {
+  font-size: 80px;
+  font-weight: 700;
+}
+#temp {
+  font-size: 45px;
+  font-weight: 600;
+  margin-top: -10px;
+}
+.details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  margin-top: 50px;
+}
+.humidity,
+.humid {
+  text-align: left;
+  margin-top: -15px;
+}
+
+#humidity,
+#wind {
+  font-size: 20px;
+  display: flex;
+  margin-top: -15px;
+}
+p {
+  font-weight: 500;
+  line-height: 1.2;
+  display: flex;
+}
+#day {
+  text-align: right;
+  margin-top: 15px;
+}
+.coder {
+  font-style: italic;
+  opacity: 0.6;
+  margin-left: 10px;
+  display: inline-flex;
+}
